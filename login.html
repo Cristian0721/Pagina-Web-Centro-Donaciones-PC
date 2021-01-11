@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Donaciones PC</title>
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/login.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="pagina_web.html">Inicio</a></li>
+        <div class="contenedor-form">
+        <div class="toggle">
+            <span> Crear Cuenta</span>
+        </div>    
+        <div class="formulario">
+            <h2>Iniciar Sesión</h2>
+            <form name="" action="#" method="" class="form-registro">
+                <input class="controls" type="text" id="username" placeholder="Ingresar Usario" required>
+                <input class="controls" type="password" id="password" placeholder="Ingresar Contraseña" required>
+                <input class="botons" type="button" value="Ingresar" onclick="iniciar()">
+            </form>
+            
+        </div>
+        <script src="js/login.js"></script>
+        
+        <div class="formulario">
+            <h2>Crea tu Cuenta</h2>
+            <form name="addForm" action="#" method="POST" class="form-registro">
+                <input class="control" type="text" id="nombre" placeholder="Ingrese su Nombre" required>
+                <input class="control" type="text" id="usuario" placeholder="Ingrese su Usuario" required>
+                <input class="control" type="email" id="correo" placeholder="Ingrese su Correo" required>
+                <input class="control" type="password" id="contraseña" placeholder="Ingrese su Contraseña" required>
+                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                <input class="boton" type="button" value="Registrar" onclick="validar()">
+            </form>   
+            
+        </div>
+        <script src="js/registro.js"></script>
+
+        <div class="reset-password">
+            <a href="#">Olvide mi Contraseña?</a>
+        </div>
+        </div>
+    </nav>
+    </header>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+   </body>
+</html>

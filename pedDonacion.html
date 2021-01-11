@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Donaciones PC</title>
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/pdonaciones.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="admin.html">Regresar</a></li>
+                <li><a href="pagina_web.html">Salir</a></li>
+            </ul>
+            </div>
+        <div class="contenedor head">
+        </nav>
+    <section>
+        <h1 class="titulo">VERIFIACIÓN DE LAS PIEZAS</h1>
+        <br>
+        <table class="tabla" border="1" style="margin: 0 auto;">
+            <tr> 
+                <th>Nombre Donador</th> 
+                <th>Fecha</th>
+                <th>Tipo de Pieza</th>
+                <th>Detalle de pieza</th>
+                <th>Cantidad</th>
+                <th>Direccion</th>
+                <th></th>
+            </tr>
+            <tr id="ocultar">
+                <td>Cristian Acosta<id="mostrar1" width="15px" style="display: none;"></td>
+                <td>07/01/2021</td>
+                <td>Placa madre</td>
+                <td>modelo HP</td>
+                <td>1</td>
+                <td>cristian@gmail.com</td>
+                <td><button class="btn-aprobar" onclick="validar1();">Validar</button> <button class="btn-rechazar" type="button" onclick="validar3();">Rechazar</button></td> 
+            </tr>
+            <tr id="ocultar2">
+                <td>Michael Lucas<id="mostrar2" width="15px" style="display: none;" ></td>
+                <td>09/01/2021</td>
+                <td>tarjeta grafica</td>
+                <td>modelo Asus</td>
+                <td>2</td>
+                <td>lucas@gmail.com</td>                   
+                <td><button class="btn-aprobar" onclick="validar2();">Validar</button> <button class="btn-rechazar" type="button" onclick="validar4();">Rechazar</button></td> 
+              </tr>
+              <tr id="ocultar3">
+                <td>Jefferson Acosta<id="mostrar2" width="15px" style="display: none;" ></td>
+                <td>10/01/2021</td>
+                <td>Fuente de poder</td>
+                <td>Corsair Vs650 80 Plus 650w</td>
+                <td>1</td>
+                <td>jjacosta@gmail.com</td>                   
+                <td><button class="btn-aprobar" onclick="validar5();">Validar</button> <button class="btn-rechazar" type="button" onclick="validar6();">Rechazar</button></td> 
+              </tr>
+            </table>   
+            <script src="js/aceptarped.js"></script>  
+    </section>
+</header>
+</body>
+</html>
